@@ -1,0 +1,21 @@
+@import '../../Styles/app.scss';
+
+.input-section {
+  display: flex;
+  width: 100%;
+  margin: 15px 0;
+
+  .input {
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+    border: 1px solid $grey-100;
+    background-color: #FFFFFF;
+    color: $blue-900;
+    border-radius: $radius;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+  }
+  .input:focus {
+    outline:none;
+  }
+}

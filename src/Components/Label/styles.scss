@@ -1,0 +1,21 @@
+@import '../../Styles/app.scss';
+
+.label {
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.label-green {
+  border: 1 solid #f4f4f4;
+  background-color: $green-800;
+  color: #fff;
+  margin: 2px;
+}
+
+.label-orange {
+  border: 1 solid #f4f4f4;
+  background-color: $orange-800;
+  color: #fff;
+  margin: 2px;
+}

@@ -1,0 +1,25 @@
+@import '../../Styles/app.scss';
+
+.section {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 3px solid $dark-100;
+  border-radius: $radius;
+  padding-bottom: 10px;
+  box-shadow: $box-shadow;
+
+  .section-title {
+    background-color: $dark-100;
+    border-bottom: 3px solid $yellow-600;
+    color: $blue-300;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .section-body {
+    padding: 10px;
+  }
+}

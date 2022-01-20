@@ -1,0 +1,46 @@
+@import '../../Styles/app.scss';
+
+.button {
+  text-decoration: none;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.button-normal {
+  padding: 5px 10px;
+}
+
+.button-large {
+  padding: 10px 30px;
+  font-size: 14px;
+}
+
+.button-default {
+  background-color: $blue-900;
+  
+  &:hover {
+    background-color: $blue-600;
+    color: #CCCCCC;
+  }
+}
+
+.button-disabled {
+  background-color: $blue-600;
+  color: #CCCCCC;
+}
+
+.button-secondary {
+  background-color: $red-900;
+  color: #CCCCCC;
+  
+  &:hover {
+    background-color: $red-600;
+  }
+}
+
+.full-width {
+  width: 100%;
+}

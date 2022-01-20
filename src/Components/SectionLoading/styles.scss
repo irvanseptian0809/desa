@@ -1,0 +1,29 @@
+@import '../../Styles/app.scss';
+
+.section-loading {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+
+  .loading-img {
+    width: 30%;
+  }
+
+  .loading-img-full {
+    width: 100%;
+  }
+
+  .loading-title {
+    color: $blue-900;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .section-loading {
+    .loading-img {
+      width: 100%;
+    }
+  }
+}
